@@ -1,0 +1,7 @@
+.LoadingScreen {
+  border: solid 5px black;
+  background-image: url("./LoadingScreenPlaceHolder.gif");
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
