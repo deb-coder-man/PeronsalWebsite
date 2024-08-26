@@ -1,30 +1,34 @@
 
-
-
 .Main-Container {
     background-image: url("./TopoBackground.webp");
     background-repeat: repeat;
     width: 100vw;
     height: 200vh;
     overflow: hidden;
-    
 }
+
 
 .frontPage {
     overflow-y: scroll;
-    width: 100vw;
-    height: 100vh;
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    background-image: url("video.mp4");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 95vw;
+    height: 90vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    
 }
 
-.frontPage-image {
-    width: 96vw;
-    height: 95vh;
+.frontPage-fullname {
     display: flex;
-    position: relative;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 3.5rem 5rem;
+    /* margin-top: 25%;
+    margin-left: 5%; */
     
 }
 
@@ -38,22 +42,15 @@
     padding: 2rem;
     padding-left: 3rem;
     padding-right: 0rem;
-    position: absolute;
-    width: 25rem;
-    height: 15rem;
-    top: 8rem;
-    left: 75rem;
-
+    width: 18rem;
+    height: 9rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     justify-content: center;
-
-
-  
+    align-items: ;
+    align-self: flex-start;
+    margin: 4rem 5rem;
 }
 
-.scroll-content::-webkit-scrollbar {
-    display: none; /* Hide scrollbar in WebKit browsers */
-}
 
